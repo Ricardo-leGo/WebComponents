@@ -1,0 +1,95 @@
+.UserCard{
+  width: 35vw;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: fit-content;
+  border-radius:12px;
+  border:solid 0.5px rgba(60,60,60, 0.5);
+
+}
+
+.contentImgUser{
+  width: 35%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius:10px 0 0 10px;
+  
+}
+
+.contentImgUser >img{
+
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+}
+
+.contentInfoUser{
+  width: 65%;
+  display: block;
+}
+
+
+
+.commonDiv{
+
+  padding-left: 1rem;
+  padding-top: .5rem;
+
+}
+
+
+.commonDiv:first-child{
+
+    background-color: peru;
+
+}
+
+.commonDiv > p{
+  font-size: .95rem;
+  font-weight: bold;
+}
+
+
+
+.editZone{
+  position: relative;
+  top: -1rem;
+  float: right;
+
+}
+
+.puesto{
+  
+  color: rgba(60,60,60, 0.5);
+  font-size: .75rem;
+  font-style: italic;
+  margin: 0;
+  padding:0;
+  padding-left: 1rem;
+  padding-top: 0;
+}
+.UsuarioI, .Rol{
+  
+  color: rgba(60,60,60, 0.5);
+  font-size: 1rem;
+  font-style: italic;
+  padding-left: 1rem;
+
+}
+
+
+.Direccion{
+
+  padding-left: 1rem;
+  padding-top: 1rem;
+  text-align: center;
+
+}
